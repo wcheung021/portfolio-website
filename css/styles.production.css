@@ -22,12 +22,13 @@
   float:right;
   font-size: normal;
   margin:10px;
-  color: #52527a;
 }
 
 ul li{
   display:inline-block;
 }
+
+
 
 .profile {
  min-width: 360px;
@@ -167,6 +168,19 @@ button:hover {
           transform: scale(1.05);
 }
 
+.contact_information{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 100px;
+  /*background-color: #cccccc;*/
+  clear: both;
+}
+
+.contact_child{
+  text-align: justify;
+float: right;
+}
 
 
 
