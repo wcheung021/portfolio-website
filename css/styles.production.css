@@ -13,10 +13,9 @@
 
 
 .navigatiion_head{
-  margin:20 auto;
-  width: 100%;
-  height:10%;
   position:fixed;
+  top:0;
+  width: 100%;
 }
 
 .navigation-list{
@@ -167,6 +166,9 @@ button:hover {
       -ms-transform: scale(1.05);
           transform: scale(1.05);
 }
+
+
+
 
 
 @media all and (max-width: 500px) {
