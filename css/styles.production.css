@@ -191,7 +191,7 @@ font-family:'Courier New', Courier, monospace
           transform: scale(1.05);
 }
 
-.contact_information{
+.contact{
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -200,7 +200,7 @@ font-family:'Courier New', Courier, monospace
   clear: both;
 }
 
-.contact_child{
+.contact_item{
   text-align: justify;
   float: right;
 }
@@ -217,6 +217,12 @@ font-family:'Courier New', Courier, monospace
     width: 100%;
   }
 
+  .contact{
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  margin-right: 75px;
+}
   h1 {
     font-size: 22px;
   }
