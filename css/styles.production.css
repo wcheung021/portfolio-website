@@ -14,20 +14,29 @@
 .navigation_head{
   position:fixed;
   top:0;
+  padding: 18px;
   width: 100%;
+  background-color: #8cb9bd;
+  color: #ECB159;
 }
 
 .navigation-list{
   float:right;
   font-size: normal;
   margin:10px;
-}
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-display: #ECB159;
+  }
 
 ul li{
   display:inline-block;
+  color: #ECB159;
 }
 
-
+.navigation-bar{
+  color: #ECB159;
+}
 
 .profile {
  min-width: 360px;
